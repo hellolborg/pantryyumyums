@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Pacifico&display=swap');
+
+.wrapper {
+  text-align: center;
+  max-width: 1080px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0px
+}
+
+.recipeImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.recipeCard {
+  width: calc((100% / 3) - 26px);
+  height: 300px;
+  margin: 30px 10px 0px 10px;
+  position: relative;
+  object-fit: cover;
+  border: 1px #bbb solid;
+  transition: transform .2s;
+
+}
+
+.recipeCard:hover {
+  transform: scale(1.05);
+}
+
+.galleryBG {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.9;
+  background-color: #ff6b6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipeName {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}

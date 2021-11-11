@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* Provides access to the state in your store to all of your components */}
+    {/* This doesn't actually GIVE your components state (that job belongs to connect() ) */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
